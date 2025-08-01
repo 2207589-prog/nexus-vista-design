@@ -28,8 +28,12 @@ export const Navigation = ({ onNavigate, currentSection }: NavigationProps) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded"></div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/7afbff88-236e-4bc2-aab2-98cb7ffe59cc.png" 
+              alt="ALTINNOVA Logo" 
+              className="w-8 h-8 object-contain"
+            />
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               ALTINNOVA
             </span>
